@@ -13,7 +13,7 @@ export default function FoodDetails({ foodId }) {
     async function fetchFood() {
       const res = await fetch(`${URL}?apiKey=${API_KEY}`);
       const data = await res.json();
-      console.log(data);
+      // console.log(data);
       setFood(data);
       setIsLoading(false);
       // The fetched food data is set to the food state using setFood.
