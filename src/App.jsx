@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+
       <Search foodData={foodData} setFoodData={setFoodData} />
       <Container>
         <InnerContainer>
